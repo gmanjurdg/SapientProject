@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html, body{
+  /* background-color: #282c34; */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.App {
+  overflow-x: hidden;
+  text-align: center;
+  /* color: white; */
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+  color: #61dafb;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+}
+
+@media only screen 
+  and (max-width: 350px) { 
+      .List {
+        font-size: 2px;
+      }
+    }
+
